@@ -1,0 +1,32 @@
+
+label {
+    display: inline-block;
+    width: 150px; 
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    margin: 10px 0;
+}
+
+form {
+    max-width: 500px; /* Adjust the width as needed */
+    margin: 0 auto;
+}

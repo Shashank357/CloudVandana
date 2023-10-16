@@ -1,0 +1,47 @@
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#result {
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.button {
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.expression {
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    background-color: grey;
+    color: white;
+}
+.ac {
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    background-color: green;
+    color: white;
+}
+
